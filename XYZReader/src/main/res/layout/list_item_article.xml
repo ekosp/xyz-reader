@@ -22,6 +22,7 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
+                android:padding="5dp"
                 android:background="#000"
                 android:layout_gravity="center"
                 android:orientation="vertical"
@@ -31,18 +32,9 @@
                 <TextView
                     tools:text="Second Variety, Banjarnegara"
                     android:id="@+id/article_title"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="16dp"
-                    android:paddingTop="6dp"
-                    android:paddingRight="16dp"
-                    android:paddingBottom="6dp"
-                    android:textColor="#fff"
-                    android:ellipsize="end"
-                    android:maxLines="4"
-                    android:minLines="2"/>
+                    style="@style/ArticleTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
 
             </LinearLayout>
 
@@ -62,7 +54,7 @@
             android:layout_height="wrap_content">
 
            <LinearLayout
-
+                android:padding="7dp"
                android:orientation="vertical"
                android:layout_width="match_parent"
                android:layout_height="wrap_content">
@@ -71,14 +63,7 @@
                    android:gravity="center_vertical"
                    tools:text="May 1, 1996\nby Eko S. Purnomo"
                    android:id="@+id/article_subtitle"
-                   style="@style/TextAppearance.AppCompat.Body1"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:paddingLeft="16dp"
-                   android:paddingRight="16dp"
-                   android:textColor="@color/grey_700"
-                   android:maxLines="2"
-                   android:ellipsize="end" />
+                   style="@style/ArticleSubText" />
 
            </LinearLayout>
 
