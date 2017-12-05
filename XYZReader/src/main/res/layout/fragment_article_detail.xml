@@ -21,15 +21,15 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                     />
+                    android:layout_height="250dp" />
 
-               <!-- <View
+                <View
                     android:layout_width="match_parent"
                     android:layout_height="112dp"
                     android:background="@drawable/photo_background_protection" />
--->
             </FrameLayout>
 
             <com.example.xyzreader.ui.MaxWidthLinearLayout
@@ -38,8 +38,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:maxWidth="@dimen/detail_card_max_width"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:background="#fff"
-                android:elevation="2dp"
+                android:elevation="6dp"
                 android:layout_marginTop="@dimen/detail_card_top_margin">
 
                 <LinearLayout
@@ -47,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#333"
-                    android:layout_gravity="bottom"
+                    android:layout_gravity="top"
                     android:orientation="vertical"
                     android:paddingLeft="@dimen/detail_inner_horiz_margin"
                     android:paddingRight="@dimen/detail_inner_horiz_margin"
