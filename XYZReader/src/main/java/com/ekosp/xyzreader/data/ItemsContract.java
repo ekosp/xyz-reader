@@ -1,10 +1,10 @@
-package com.example.xyzreader.data;
+package com.ekosp.xyzreader.data;
 
 import android.net.Uri;
 
 public class ItemsContract {
-	public static final String CONTENT_AUTHORITY = "com.example.xyzreader";
-	public static final Uri BASE_URI = Uri.parse("content://com.example.xyzreader");
+	public static final String CONTENT_AUTHORITY = "com.ekosp.xyzreader";
+	public static final Uri BASE_URI = Uri.parse("content://com.ekosp.xyzreader");
 
 	interface ItemsColumns {
 		/** Type: INTEGER PRIMARY KEY AUTOINCREMENT */

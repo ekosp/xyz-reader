@@ -1,4 +1,4 @@
-package com.example.xyzreader.ui;
+package com.ekosp.xyzreader.ui;
 
 import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
@@ -23,10 +23,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.xyzreader.R;
-import com.example.xyzreader.data.ArticleLoader;
-import com.example.xyzreader.data.ItemsContract;
-import com.example.xyzreader.data.UpdaterService;
+import com.ekosp.xyzreader.R;
+import com.ekosp.xyzreader.data.ArticleLoader;
+import com.ekosp.xyzreader.data.ItemsContract;
+import com.ekosp.xyzreader.data.UpdaterService;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
