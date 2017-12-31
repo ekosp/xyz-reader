@@ -94,17 +94,14 @@
         </FrameLayout>
     </com.ekosp.xyzreader.ui.ObservableScrollView>
 
-    <ImageButton
+    <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:background="@drawable/add_fab_background"
-        android:contentDescription="@string/action_share"
-        android:elevation="@dimen/fab_elevation"
-        android:src="@drawable/ic_share"
-        android:stateListAnimator="@anim/fab_state_list_anim" />
+        android:layout_margin="20dp"
+        android:elevation="2dp"
+        android:src="@drawable/ic_share" />
+
 
 </com.ekosp.xyzreader.ui.DrawInsetsFrameLayout>

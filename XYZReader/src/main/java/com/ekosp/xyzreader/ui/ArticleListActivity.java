@@ -44,6 +44,7 @@ public class ArticleListActivity extends AppCompatActivity implements
 
     private static final String TAG = ArticleListActivity.class.toString();
     private Toolbar mToolbar;
+
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
 
@@ -62,7 +63,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         setSupportActionBar(mToolbar);
 
 
-        final View toolbarContainerView = findViewById(R.id.toolbar_container);
+       // final View toolbarContainerView = findViewById(R.id.toolbar_container);
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 

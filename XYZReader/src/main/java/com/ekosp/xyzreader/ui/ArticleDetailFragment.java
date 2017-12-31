@@ -65,7 +65,7 @@ public class ArticleDetailFragment extends Fragment implements
     // Use default locale format
     private SimpleDateFormat outputFormat = new SimpleDateFormat();
     // Most time functions can only handle 1902 - 2037
-    private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2,1,1);
+   private GregorianCalendar START_OF_EPOCH = new GregorianCalendar(2,1,1);
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -145,7 +145,7 @@ public class ArticleDetailFragment extends Fragment implements
             public void onClick(View view) {
                 startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
                         .setType("text/plain")
-                        //.setText("Some sample text")
+                        .setText("Some sample text")
                         .setText("")
                         .getIntent(), getString(R.string.action_share)));
             }
